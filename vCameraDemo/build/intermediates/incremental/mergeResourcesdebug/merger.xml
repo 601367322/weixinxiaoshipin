@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="unspecified"><source path="C:\my\VCameraDemo1\vCameraDemo\build\intermediates\exploded-aar\VCameraDemo1\vitamioRecorderLibrary\unspecified\res"><file name="ic_launcher" path="C:\my\VCameraDemo1\vCameraDemo\build\intermediates\exploded-aar\VCameraDemo1\vitamioRecorderLibrary\unspecified\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi" type="drawable"/><file name="ic_launcher" path="C:\my\VCameraDemo1\vCameraDemo\build\intermediates\exploded-aar\VCameraDemo1\vitamioRecorderLibrary\unspecified\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi" type="drawable"/><file name="ic_launcher" path="C:\my\VCameraDemo1\vCameraDemo\build\intermediates\exploded-aar\VCameraDemo1\vitamioRecorderLibrary\unspecified\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi" type="drawable"/><file path="C:\my\VCameraDemo1\vCameraDemo\build\intermediates\exploded-aar\VCameraDemo1\vitamioRecorderLibrary\unspecified\res\values\values.xml" qualifiers=""><style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style><string name="app_name">VCameraLibrary</string><style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style></file><file path="C:\my\VCameraDemo1\vCameraDemo\build\intermediates\exploded-aar\VCameraDemo1\vitamioRecorderLibrary\unspecified\res\values-v11\values-v11.xml" qualifiers="v11"><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style></file><file path="C:\my\VCameraDemo1\vCameraDemo\build\intermediates\exploded-aar\VCameraDemo1\vitamioRecorderLibrary\unspecified\res\values-v14\values-v14.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style></file></source></dataSet><dataSet config="main"><source path="C:\my\VCameraDemo1\vCameraDemo\src\main\res"><file name="push_bottom_in" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\anim\push_bottom_in.xml" qualifiers="" type="anim"/><file name="push_bottom_out" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\anim\push_bottom_out.xml" qualifiers="" type="anim"/><file name="push_up_in" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\anim\push_up_in.xml" qualifiers="" type="anim"/><file name="push_up_out" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\anim\push_up_out.xml" qualifiers="" type="anim"/><file name="record_focus" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\anim\record_focus.xml" qualifiers="" type="anim"/><file name="record_text_color_selector" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\color\record_text_color_selector.xml" qualifiers="" type="color"/><file name="video_edit_text_color_selector" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\color\video_edit_text_color_selector.xml" qualifiers="" type="color"/><file name="btn_bg_green" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable\btn_bg_green.xml" qualifiers="" type="drawable"/><file name="priview_edit_tab_selector" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable\priview_edit_tab_selector.xml" qualifiers="" type="drawable"/><file name="priview_orig_volumn_selector" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable\priview_orig_volumn_selector.xml" qualifiers="" type="drawable"/><file name="priview_theme_volumn_selector" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable\priview_theme_volumn_selector.xml" qualifiers="" type="drawable"/><file name="record_camera_flash_led_selector" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable\record_camera_flash_led_selector.xml" qualifiers="" type="drawable"/><file name="record_camera_switch_selector" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable\record_camera_switch_selector.xml" qualifiers="" type="drawable"/><file name="record_cancel_seletor" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable\record_cancel_seletor.xml" qualifiers="" type="drawable"/><file name="record_controller_seletor" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable\record_controller_seletor.xml" qualifiers="" type="drawable"/><file name="record_delete_selector" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable\record_delete_selector.xml" qualifiers="" type="drawable"/><file name="record_next_seletor" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable\record_next_seletor.xml" qualifiers="" type="drawable"/><file name="selector_bg" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable\selector_bg.xml" qualifiers="" type="drawable"/><file name="setting_item_selector" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable\setting_item_selector.xml" qualifiers="" type="drawable"/><file name="tab_contact_list" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable\tab_contact_list.xml" qualifiers="" type="drawable"/><file name="tab_find" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable\tab_find.xml" qualifiers="" type="drawable"/><file name="tab_profile" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable\tab_profile.xml" qualifiers="" type="drawable"/><file name="tab_weixin" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable\tab_weixin.xml" qualifiers="" type="drawable"/><file name="aii" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-hdpi\aii.png" qualifiers="hdpi" type="drawable"/><file name="contact_list_normal" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-hdpi\contact_list_normal.png" qualifiers="hdpi" type="drawable"/><file name="contact_list_pressed" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-hdpi\contact_list_pressed.png" qualifiers="hdpi" type="drawable"/><file name="find_normal" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-hdpi\find_normal.png" qualifiers="hdpi" type="drawable"/><file name="find_pressed" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-hdpi\find_pressed.png" qualifiers="hdpi" type="drawable"/><file name="head" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-hdpi\head.png" qualifiers="hdpi" type="drawable"/><file name="icon" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-hdpi\icon.png" qualifiers="hdpi" type="drawable"/><file name="icon_addfriend" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-hdpi\icon_addfriend.png" qualifiers="hdpi" type="drawable"/><file name="icon_de_game" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-hdpi\icon_de_game.png" qualifiers="hdpi" type="drawable"/><file name="icon_de_nearby" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-hdpi\icon_de_nearby.png" qualifiers="hdpi" type="drawable"/><file name="icon_de_ping" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-hdpi\icon_de_ping.png" qualifiers="hdpi" type="drawable"/><file name="icon_de_saoyisao" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-hdpi\icon_de_saoyisao.png" qualifiers="hdpi" type="drawable"/><file name="icon_de_shop" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-hdpi\icon_de_shop.png" qualifiers="hdpi" type="drawable"/><file name="icon_de_yao" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-hdpi\icon_de_yao.png" qualifiers="hdpi" type="drawable"/><file name="icon_me_card" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-hdpi\icon_me_card.png" qualifiers="hdpi" type="drawable"/><file name="icon_me_collect" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-hdpi\icon_me_collect.png" qualifiers="hdpi" type="drawable"/><file name="icon_me_money" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-hdpi\icon_me_money.png" qualifiers="hdpi" type="drawable"/><file name="icon_me_photo" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-hdpi\icon_me_photo.png" qualifiers="hdpi" type="drawable"/><file name="icon_me_setting" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-hdpi\icon_me_setting.png" qualifiers="hdpi" type="drawable"/><file name="icon_me_smail" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-hdpi\icon_me_smail.png" qualifiers="hdpi" type="drawable"/><file name="icon_public" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-hdpi\icon_public.png" qualifiers="hdpi" type="drawable"/><file name="icon_qunliao" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-hdpi\icon_qunliao.png" qualifiers="hdpi" type="drawable"/><file name="icon_tip" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-hdpi\icon_tip.png" qualifiers="hdpi" type="drawable"/><file name="ic_launcher" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi" type="drawable"/><file name="ic_sex_female" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-hdpi\ic_sex_female.png" qualifiers="hdpi" type="drawable"/><file name="ic_sex_male" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-hdpi\ic_sex_male.png" qualifiers="hdpi" type="drawable"/><file name="profile_normal" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-hdpi\profile_normal.png" qualifiers="hdpi" type="drawable"/><file name="profile_pressed" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-hdpi\profile_pressed.png" qualifiers="hdpi" type="drawable"/><file name="right" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-hdpi\right.png" qualifiers="hdpi" type="drawable"/><file name="search_ba" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-hdpi\search_ba.png" qualifiers="hdpi" type="drawable"/><file name="search_icon" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-hdpi\search_icon.png" qualifiers="hdpi" type="drawable"/><file name="v2" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-hdpi\v2.png" qualifiers="hdpi" type="drawable"/><file name="weixin_normal" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-hdpi\weixin_normal.png" qualifiers="hdpi" type="drawable"/><file name="weixin_pressed" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-hdpi\weixin_pressed.png" qualifiers="hdpi" type="drawable"/><file name="eye" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-ldpi\eye.png" qualifiers="ldpi" type="drawable"/><file name="eye_gray_1" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-ldpi\eye_gray_1.png" qualifiers="ldpi" type="drawable"/><file name="eye_gray_2" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-ldpi\eye_gray_2.png" qualifiers="ldpi" type="drawable"/><file name="eye_light1" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-ldpi\eye_light1.png" qualifiers="ldpi" type="drawable"/><file name="eye_light2" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-ldpi\eye_light2.png" qualifiers="ldpi" type="drawable"/><file name="ic_launcher" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi" type="drawable"/><file name="ic_launcher" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi" type="drawable"/><file name="play_big" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-xhdpi\play_big.png" qualifiers="xhdpi" type="drawable"/><file name="preview_music_bg" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-xhdpi\preview_music_bg.9.png" qualifiers="xhdpi" type="drawable"/><file name="preview_music_original" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-xhdpi\preview_music_original.png" qualifiers="xhdpi" type="drawable"/><file name="preview_music_original_disable" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-xhdpi\preview_music_original_disable.png" qualifiers="xhdpi" type="drawable"/><file name="preview_music_theme" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-xhdpi\preview_music_theme.png" qualifiers="xhdpi" type="drawable"/><file name="preview_music_theme_disable" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-xhdpi\preview_music_theme_disable.png" qualifiers="xhdpi" type="drawable"/><file name="priview_orig_volumn_close" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-xhdpi\priview_orig_volumn_close.png" qualifiers="xhdpi" type="drawable"/><file name="priview_orig_volumn_open" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-xhdpi\priview_orig_volumn_open.png" qualifiers="xhdpi" type="drawable"/><file name="priview_theme_volumn_close" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-xhdpi\priview_theme_volumn_close.png" qualifiers="xhdpi" type="drawable"/><file name="priview_theme_volumn_open" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-xhdpi\priview_theme_volumn_open.png" qualifiers="xhdpi" type="drawable"/><file name="record_back" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-xhdpi\record_back.png" qualifiers="xhdpi" type="drawable"/><file name="record_camera_flash_led_off_disable" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-xhdpi\record_camera_flash_led_off_disable.png" qualifiers="xhdpi" type="drawable"/><file name="record_camera_flash_led_off_normal" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-xhdpi\record_camera_flash_led_off_normal.png" qualifiers="xhdpi" type="drawable"/><file name="record_camera_flash_led_off_pressed" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-xhdpi\record_camera_flash_led_off_pressed.png" qualifiers="xhdpi" type="drawable"/><file name="record_camera_flash_led_on_disable" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-xhdpi\record_camera_flash_led_on_disable.png" qualifiers="xhdpi" type="drawable"/><file name="record_camera_flash_led_on_normal" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-xhdpi\record_camera_flash_led_on_normal.png" qualifiers="xhdpi" type="drawable"/><file name="record_camera_flash_led_on_pressed" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-xhdpi\record_camera_flash_led_on_pressed.png" qualifiers="xhdpi" type="drawable"/><file name="record_camera_switch_disable" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-xhdpi\record_camera_switch_disable.png" qualifiers="xhdpi" type="drawable"/><file name="record_camera_switch_normal" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-xhdpi\record_camera_switch_normal.png" qualifiers="xhdpi" type="drawable"/><file name="record_camera_switch_pressed" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-xhdpi\record_camera_switch_pressed.png" qualifiers="xhdpi" type="drawable"/><file name="record_cancel_normal" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-xhdpi\record_cancel_normal.png" qualifiers="xhdpi" type="drawable"/><file name="record_cancel_press" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-xhdpi\record_cancel_press.png" qualifiers="xhdpi" type="drawable"/><file name="record_controller_normal" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-xhdpi\record_controller_normal.png" qualifiers="xhdpi" type="drawable"/><file name="record_controller_press" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-xhdpi\record_controller_press.png" qualifiers="xhdpi" type="drawable"/><file name="record_delete_check_normal" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-xhdpi\record_delete_check_normal.png" qualifiers="xhdpi" type="drawable"/><file name="record_delete_check_press" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-xhdpi\record_delete_check_press.png" qualifiers="xhdpi" type="drawable"/><file name="record_delete_normal" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-xhdpi\record_delete_normal.png" qualifiers="xhdpi" type="drawable"/><file name="record_delete_press" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-xhdpi\record_delete_press.png" qualifiers="xhdpi" type="drawable"/><file name="record_next_normal" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-xhdpi\record_next_normal.png" qualifiers="xhdpi" type="drawable"/><file name="record_next_press" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-xhdpi\record_next_press.png" qualifiers="xhdpi" type="drawable"/><file name="record_theme_selected" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-xhdpi\record_theme_selected.png" qualifiers="xhdpi" type="drawable"/><file name="record_theme_square_selected" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-xhdpi\record_theme_square_selected.png" qualifiers="xhdpi" type="drawable"/><file name="title_text_left" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-xhdpi\title_text_left.png" qualifiers="xhdpi" type="drawable"/><file name="title_text_right" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-xhdpi\title_text_right.png" qualifiers="xhdpi" type="drawable"/><file name="toast_tip_bg" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-xhdpi\toast_tip_bg.9.png" qualifiers="xhdpi" type="drawable"/><file name="uploader_dialog_bg" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-xhdpi\uploader_dialog_bg.9.png" qualifiers="xhdpi" type="drawable"/><file name="video_edit_tab_selected_bg" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-xhdpi\video_edit_tab_selected_bg.png" qualifiers="xhdpi" type="drawable"/><file name="video_edit_tab_split_line" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-xhdpi\video_edit_tab_split_line.png" qualifiers="xhdpi" type="drawable"/><file name="video_focus" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\drawable-xhdpi\video_focus.png" qualifiers="xhdpi" type="drawable"/><file name="activity_import_video" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\layout\activity_import_video.xml" qualifiers="" type="layout"/><file name="activity_main" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\layout\activity_main.xml" qualifiers="" type="layout"/><file name="activity_main2" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\layout\activity_main2.xml" qualifiers="" type="layout"/><file name="activity_media_preview" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\layout\activity_media_preview.xml" qualifiers="" type="layout"/><file name="activity_media_recorder" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\layout\activity_media_recorder.xml" qualifiers="" type="layout"/><file name="activity_video_player" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\layout\activity_video_player.xml" qualifiers="" type="layout"/><file name="contact_item" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\layout\contact_item.xml" qualifiers="" type="layout"/><file name="fragment_dicover" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\layout\fragment_dicover.xml" qualifiers="" type="layout"/><file name="fragment_friends" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\layout\fragment_friends.xml" qualifiers="" type="layout"/><file name="fragment_profile" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\layout\fragment_profile.xml" qualifiers="" type="layout"/><file name="framen_msg" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\layout\framen_msg.xml" qualifiers="" type="layout"/><file name="include_tilte_record" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\layout\include_tilte_record.xml" qualifiers="" type="layout"/><file name="layout_bottom" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\layout\layout_bottom.xml" qualifiers="" type="layout"/><file name="layout_fragment" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\layout\layout_fragment.xml" qualifiers="" type="layout"/><file name="layout_head_friend" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\layout\layout_head_friend.xml" qualifiers="" type="layout"/><file name="layout_head_search" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\layout\layout_head_search.xml" qualifiers="" type="layout"/><file name="layout_item_msg" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\layout\layout_item_msg.xml" qualifiers="" type="layout"/><file name="layout_title" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\layout\layout_title.xml" qualifiers="" type="layout"/><file name="list_position" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\layout\list_position.xml" qualifiers="" type="layout"/><file name="menu_record_import" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\layout\menu_record_import.xml" qualifiers="" type="layout"/><file name="movie_recorder_view" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\layout\movie_recorder_view.xml" qualifiers="" type="layout"/><file name="toast_layout" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\layout\toast_layout.xml" qualifiers="" type="layout"/><file name="view_radio_item" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\layout\view_radio_item.xml" qualifiers="" type="layout"/><file name="view_theme_item" path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\layout\view_theme_item.xml" qualifiers="" type="layout"/><file path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\values\colors.xml" qualifiers=""><color name="transparent2">#50000000</color><color name="red">#FC2828</color><color name="black2">#ffeeeeee</color><color name="windows_color">#F5F5F5</color><color name="black1">#7A7E83</color><color name="bar_color">#232325</color><color name="greeny">#00CB0D</color><color name="transgray">#33555555</color><color name="transparent">#00000000</color><color name="white">#ffffff</color><color name="black">#ff000000</color></file><file path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\values\dimens.xml" qualifiers=""><dimen name="activity_vertical_margin">16dp</dimen><dimen name="activity_horizontal_margin">16dp</dimen></file><file path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\values\movie_attrs.xml" qualifiers=""><declare-styleable name="MovieRecorderView">
+        <!-- 开始是否打开摄像头 -->
+        <attr format="boolean" name="is_open_camera"/>
+        <!-- 一次拍摄最长时间 -->
+        <attr format="integer" name="record_max_time"/>
+        <!-- 视频分辨率宽度 -->
+        <attr format="integer" name="width"/>
+        <!-- 视频分辨率高度 -->
+        <attr format="integer" name="height"/>
+    </declare-styleable></file><file path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\values\strings.xml" qualifiers=""><string name="hello_world">Hello world!</string><string name="action_settings">Settings</string><string name="app_name">微信</string></file><file path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\values\styles.xml" qualifiers=""><style name="txt_ContextStyle1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+    </style><style name="AppTheme" parent="android:Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+     <!--<item name="android:windowIsTranslucent">true</item>  -->
+        <item name="android:windowBackground">@color/windows_color</item>
+    </style><style name="MMFontTag">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+         <item name="android:paddingBottom">2dip</item>
+         <item name="android:paddingLeft">7dip</item>
+            <item name="android:paddingRight">7dip</item>
+          <item name="android:paddingTop">2dip</item>
+    </style><style name="MMListCatalog">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff595c61</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@color/windows_color</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingTop">5.0dip</item>
+        <item name="android:paddingBottom">5.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style><style name="TxtTitle" parent="@style/img_Style">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:paddingLeft">6.0dip</item>
+        <item name="android:paddingRight">6.0dip</item>
+        <item name="android:focusable">false</item>
+    </style><style name="MMListItem">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:paddingRight">4.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style><style name="img_Style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:contentDescription">@string/app_name</item>
+    </style><style name="MMFontTitleInList">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">#ff595c61</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style><style name="AppBaseTheme" parent="android:Theme.Light">
+    </style></file><file path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\values\swipelistview__attrs.xml" qualifiers=""><declare-styleable name="SwipeListView">
+        <attr format="boolean" name="swipeOpenOnLongPress"/>
+        <attr format="integer" name="swipeAnimationTime"/>
+        <attr format="dimension" name="swipeOffsetLeft"/>
+        <attr format="dimension" name="swipeOffsetRight"/>
+        <attr format="boolean" name="swipeCloseAllItemsWhenMoveList"/>
+        <attr format="reference" name="swipeFrontView"/>
+        <attr format="reference" name="swipeBackView"/>
+        <attr format="enum" name="swipeMode">
+            <enum name="none" value="0"/>
+            <enum name="both" value="1"/>
+            <enum name="right" value="2"/>
+            <enum name="left" value="3"/>
+        </attr>
+        <attr format="enum" name="swipeActionLeft">
+            <enum name="reveal" value="0"/>
+            <enum name="dismiss" value="1"/>
+            <enum name="choice" value="2"/>
+        </attr>
+        <attr format="enum" name="swipeActionRight">
+            <enum name="reveal" value="0"/>
+            <enum name="dismiss" value="1"/>
+            <enum name="choice" value="2"/>
+        </attr>
+        <attr format="reference" name="swipeDrawableChecked"/>
+        <attr format="reference" name="swipeDrawableUnchecked"/>
+    </declare-styleable></file><file path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\values\swipe_attrs.xml" qualifiers=""><declare-styleable name="SwipeLayout">
+        <attr format="enum" name="drag_edge">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+            <enum name="top" value="2"/>
+            <enum name="bottom" value="3"/>
+        </attr>
+        <attr format="enum" name="show_mode">
+            <enum name="lay_down" value="0"/>
+            <enum name="pull_out" value="1"/>
+        </attr>
+    </declare-styleable></file><file path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\values-v11\arrays.xml" qualifiers="v11"><string-array name="theme_order">
+        <item>Shining</item>
+        <item>Dreamworld</item>
+        <item>Love</item>
+        <item>Fashion</item>
+        <item>SunShine</item>
+        <item>Magic</item>
+        <item>Hawaii</item>
+        <item>Pulse</item>
+    </string-array><string-array name="theme_filter_order">
+        <item>Empty</item>
+        <item>7AM</item>
+        <item>1974</item>
+        <item>Absinth</item>
+        <item>Stark</item>
+        <item>Papilio</item>
+        <item>Ice</item>
+        <item>Professional</item>
+        <item>Smoky</item>
+        <item>Stage</item>
+    </string-array></file><file path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\values-v11\colors.xml" qualifiers="v11"><color name="text_gray2">#ffC3C3C3</color><color name="transparent_black">#ff000000</color><color name="camera_theme_selected_bgcolor">#2980B9</color><color name="transparent_black_85">#DA000000</color><color name="transparent_black_40">#66000000</color><color name="gray">#ff666666</color><color name="cyan">#66ffffff</color><color name="transparent">#00000000</color><color name="black">#000</color><color name="translucent_background_80">#CC000000</color><color name="background_dark">#f0f0f0</color><color name="magenta">#ff6699ff</color><color name="lightgray">#c0c0c0ff</color><color name="camera_progress">#2980B9</color><color name="title_background_color">#fcb840</color><color name="camera_progress_split">#005084</color><color name="transparent_black_30">#4D000000</color><color name="camera_progress_overflow">#1b5d89</color><color name="camera_progress_delete">#f68b2b</color><color name="camera_progress_three">#24ff00</color><color name="red">#FF0000</color><color name="blue">#ff0f81d9</color><color name="translucent_background_50">#7f000000</color><color name="camera_bg">#2c2c2c</color><color name="camera_bottom_press_bg">#1b1c1f</color><color name="darkgray">#404040ff</color><color name="white">#ffffffff</color><color name="green">#0ff0ff</color><color name="yellow">#ffFF33ff</color></file><file path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\values-v11\drawables.xml" qualifiers="v11"><drawable name="music_item_bg_normal">#252527</drawable><drawable name="record_camera_progress">#fcb840</drawable><drawable name="record_camera_bg">#2c2c2c</drawable><drawable name="progress_background_color">#c3c3c3</drawable><drawable name="gray">#c3c3c3</drawable><drawable name="video_edit_tab_bg_color">#1E1E1E</drawable><drawable name="weibo_call_share_weibo_text_press">#E5E5E5</drawable><drawable name="music_item_bg_selected">#000000</drawable><drawable name="record_camera_progress_error">#929292</drawable><drawable name="white">#ffffff</drawable><drawable name="transparent">#00000000</drawable><drawable name="import_folder_item_pressed">#434345</drawable><drawable name="cover_track">#64000000</drawable><drawable name="weibo_call_share_weibo_text_normal">#F2F2F2</drawable></file><file path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\values-v11\integers.xml" qualifiers="v11"><integer-array name="theme_version">
+        <item>0</item> <!-- THEME_MUSIC_ASSETS MusicAssets.zip-->
+        <item>0</item> <!-- THEME_EMPTY Empty.zip-->
+        <item>1</item> <!-- THEME_VIDEO_COMMON Common.zip-->
+        <item>0</item> <!-- THEME_FILTER_ASSETS FilterAssets.zip-->
+        <item>1</item> <!-- THEME_MUSIC_VIDEO_ASSETS MusicVideoAssets.zip-->
+    </integer-array></file><file path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\values-v11\strings.xml" qualifiers="v11"><string name="record_preview_theme">主题</string><string name="record_camera_import_video_choose">从本地视频选择</string><string name="record_camera_delay">延迟</string><string name="dialog_yes">是</string><string name="record_camera_cancel_dialog_yes">确定</string><string name="record_camera_next">下一步</string><string name="record_camera_back_delete">回删</string><string name="record_camera_init_faild">初始化视频存储路径失败</string><string name="record_camera_back">返回</string><string name="record_camera_tools_led">闪光</string><string name="record_camera_cancel_dialog_no">取消</string><string name="record_camera_preview_next">下一步</string><string name="record_camera_exit_dialog_message">是否放弃这段视频？</string><string name="record_preview_building">视频生成中…</string><string name="record_camera_preview_pre">拍摄</string><string name="record_preview_tab_theme">主题</string><string name="record_camera_import">导入</string><string name="record_camera_import_video">视频</string><string name="dialog_no">否</string><string name="record_camera_open_audio_faild">无法打开录音设备！</string><string name="record_camera_save_faild">视频信息保存失败！</string><string name="record_camera_check_available_faild">手机满了！至少需要200M存储空间才能继续拍摄！</string><string name="action_cancel">取消</string><string name="action_back">返回</string><string name="record_camera_preview_title">编辑</string><string name="record_preview_theme_load_faild">主题加载失败</string><string name="record_preview_encoding_format">转码中\t%d%%</string><string name="record_preview_music_nothing">无</string><string name="hint">提示</string><string name="record_camera_import_image_faild">导入照片失败</string><string name="record_preview_tab_filter">滤镜</string><string name="record_camera_filter">滤镜</string><string name="record_camera_import_image_choose">从本地照片选择</string><string name="record_video_transcoding_faild">视频转码失败</string><string name="record_camera_progress_message">正在转码…</string><string name="record_camera_tools_focus">焦点</string><string name="record_preview_encoding">正在转码…</string><string name="record_camera_import_image">照片</string><string name="record_read_object_faild">拍摄信息读取失败！请检查SD卡，稍后重试！</string><string name="record_camera_author">%1$s 作品</string><string name="record_camera_import_video_faild">导入视频失败</string><string name="action_ok">确定</string><string name="record_camera_import_video_title">截\t取</string><string name="record_video_transcoding_success">视频保存在:%s</string><string name="record_preview_title">预览</string><string name="record_preview_theme_original">原始</string><string name="imageview_content_description"/><string name="record_camera_title">拍摄</string><string name="record_camera_ghost">幽灵</string></file><file path="C:\my\VCameraDemo1\vCameraDemo\src\main\res\values-v11\styles.xml" qualifiers="v11"><style name="VideoEditTabStyle">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/video_edit_text_color_selector</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@drawable/priview_edit_tab_selector</item>
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1.0</item>
+    </style><style name="RecordThemeStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">2dip</item>
+        <item name="android:padding">2dip</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:layout_marginLeft">10dip</item>
+    </style><style name="CameraTheme" parent="AppBaseTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/black</item>
+    </style><style name="AppBaseTheme" parent="android:Theme.Light">
+        
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style><style name="TitleStyleRight">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">50dip</item>
+        <item name="android:paddingLeft">6dp</item>
+        <item name="android:paddingRight">6dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:drawablePadding">11dip</item>
+    </style><style name="TitleStyleCenter">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:gravity">center</item>
+        <item name="android:shadowColor">@color/black</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style></file></source><source path="C:\my\VCameraDemo1\vCameraDemo\build\generated\res\rs\debug"/><source path="C:\my\VCameraDemo1\vCameraDemo\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug"><source path="C:\my\VCameraDemo1\vCameraDemo\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="SwipeListView"><attr format="boolean" name="swipeOpenOnLongPress"/><attr format="integer" name="swipeAnimationTime"/><attr format="dimension" name="swipeOffsetLeft"/><attr format="dimension" name="swipeOffsetRight"/><attr format="boolean" name="swipeCloseAllItemsWhenMoveList"/><attr format="reference" name="swipeFrontView"/><attr format="reference" name="swipeBackView"/><attr format="enum" name="swipeMode"><enum name="none" value="0"/><enum name="both" value="1"/><enum name="right" value="2"/><enum name="left" value="3"/></attr><attr format="enum" name="swipeActionLeft"><enum name="reveal" value="0"/><enum name="dismiss" value="1"/><enum name="choice" value="2"/></attr><attr format="enum" name="swipeActionRight"><enum name="reveal" value="0"/><enum name="dismiss" value="1"/><enum name="choice" value="2"/></attr><attr format="reference" name="swipeDrawableChecked"/><attr format="reference" name="swipeDrawableUnchecked"/></declare-styleable><declare-styleable name="MovieRecorderView"><attr format="boolean" name="is_open_camera"/><attr format="integer" name="record_max_time"/><attr format="integer" name="width"/><attr format="integer" name="height"/></declare-styleable><declare-styleable name="SwipeLayout"><attr format="enum" name="drag_edge"><enum name="left" value="0"/><enum name="right" value="1"/><enum name="top" value="2"/><enum name="bottom" value="3"/></attr><attr format="enum" name="show_mode"><enum name="lay_down" value="0"/><enum name="pull_out" value="1"/></attr></declare-styleable></configuration></mergedItems></merger>

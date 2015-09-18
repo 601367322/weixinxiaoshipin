@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/VCameraDemo1.iml" filepath="$PROJECT_DIR$/VCameraDemo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vCameraDemo/vCameraDemo.iml" filepath="$PROJECT_DIR$/vCameraDemo/vCameraDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vitamioRecorderLibrary/vitamioRecorderLibrary.iml" filepath="$PROJECT_DIR$/vitamioRecorderLibrary/vitamioRecorderLibrary.iml" />
+    </modules>
+  </component>
+</project>

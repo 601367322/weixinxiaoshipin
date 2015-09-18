@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/my/VCameraDemo1/vCameraDemo/src/main/res/values-v11/arrays.xml -->
+    <eat-comment/>
+    <string-array name="theme_filter_order">
+        <item>Empty</item>
+        <item>7AM</item>
+        <item>1974</item>
+        <item>Absinth</item>
+        <item>Stark</item>
+        <item>Papilio</item>
+        <item>Ice</item>
+        <item>Professional</item>
+        <item>Smoky</item>
+        <item>Stage</item>
+    </string-array>
+    <string-array name="theme_order">
+        <item>Shining</item>
+        <item>Dreamworld</item>
+        <item>Love</item>
+        <item>Fashion</item>
+        <item>SunShine</item>
+        <item>Magic</item>
+        <item>Hawaii</item>
+        <item>Pulse</item>
+    </string-array>
+    <!-- From: file:/C:/my/VCameraDemo1/vCameraDemo/src/main/res/values-v11/integers.xml -->
+    <eat-comment/>
+    <integer-array name="theme_version">
+        <item>0</item> <!-- THEME_MUSIC_ASSETS MusicAssets.zip-->
+        <item>0</item> <!-- THEME_EMPTY Empty.zip-->
+        <item>1</item> <!-- THEME_VIDEO_COMMON Common.zip-->
+        <item>0</item> <!-- THEME_FILTER_ASSETS FilterAssets.zip-->
+        <item>1</item> <!-- THEME_MUSIC_VIDEO_ASSETS MusicVideoAssets.zip-->
+    </integer-array>
+    <!-- From: file:/C:/my/VCameraDemo1/vCameraDemo/src/main/res/values-v11/colors.xml -->
+    <eat-comment/>
+    <color name="background_dark">#f0f0f0</color>
+    <color name="black">#000</color>
+    <color name="blue">#ff0f81d9</color>
+    <color name="camera_bg">#2c2c2c</color>
+    <color name="camera_bottom_press_bg">#1b1c1f</color>
+    <color name="camera_progress">#2980B9</color>
+    <color name="camera_progress_delete">#f68b2b</color>
+    <color name="camera_progress_overflow">#1b5d89</color>
+    <color name="camera_progress_split">#005084</color>
+    <color name="camera_progress_three">#24ff00</color>
+    <color name="camera_theme_selected_bgcolor">#2980B9</color>
+    <color name="cyan">#66ffffff</color>
+    <color name="darkgray">#404040ff</color>
+    <color name="gray">#ff666666</color>
+    <color name="green">#0ff0ff</color>
+    <color name="lightgray">#c0c0c0ff</color>
+    <color name="magenta">#ff6699ff</color>
+    <color name="red">#FF0000</color>
+    <color name="text_gray2">#ffC3C3C3</color>
+    <color name="title_background_color">#fcb840</color>
+    <color name="translucent_background_50">#7f000000</color>
+    <color name="translucent_background_80">#CC000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_black">#ff000000</color>
+    <color name="transparent_black_30">#4D000000</color>
+    <color name="transparent_black_40">#66000000</color>
+    <color name="transparent_black_85">#DA000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="yellow">#ffFF33ff</color>
+    <!-- From: file:/C:/my/VCameraDemo1/vCameraDemo/src/main/res/values-v11/drawables.xml -->
+    <eat-comment/>
+    <drawable name="cover_track">#64000000</drawable>
+    <drawable name="gray">#c3c3c3</drawable>
+    <drawable name="import_folder_item_pressed">#434345</drawable>
+    <drawable name="music_item_bg_normal">#252527</drawable>
+    <drawable name="music_item_bg_selected">#000000</drawable>
+    <drawable name="progress_background_color">#c3c3c3</drawable>
+    <drawable name="record_camera_bg">#2c2c2c</drawable>
+    <drawable name="record_camera_progress">#fcb840</drawable>
+    <drawable name="record_camera_progress_error">#929292</drawable>
+    <drawable name="transparent">#00000000</drawable>
+    <drawable name="video_edit_tab_bg_color">#1E1E1E</drawable>
+    <drawable name="weibo_call_share_weibo_text_normal">#F2F2F2</drawable>
+    <drawable name="weibo_call_share_weibo_text_press">#E5E5E5</drawable>
+    <drawable name="white">#ffffff</drawable>
+    <!-- From: file:/C:/my/VCameraDemo1/vCameraDemo/src/main/res/values-v11/strings.xml -->
+    <eat-comment/>
+    <string name="action_back">返回</string>
+    <string name="action_cancel">取消</string>
+    <string name="action_ok">确定</string>
+    <string name="dialog_no">否</string>
+    <string name="dialog_yes">是</string>
+    <string name="hint">提示</string>
+    <string name="imageview_content_description"/>
+    <string name="record_camera_author">%1$s 作品</string>
+    <string name="record_camera_back">返回</string>
+    <string name="record_camera_back_delete">回删</string>
+    <string name="record_camera_cancel_dialog_no">取消</string>
+    <string name="record_camera_cancel_dialog_yes">确定</string>
+    <string name="record_camera_check_available_faild">手机满了！至少需要200M存储空间才能继续拍摄！</string>
+    <string name="record_camera_delay">延迟</string>
+    <string name="record_camera_exit_dialog_message">是否放弃这段视频？</string>
+    <string name="record_camera_filter">滤镜</string>
+    <string name="record_camera_ghost">幽灵</string>
+    <string name="record_camera_import">导入</string>
+    <string name="record_camera_import_image">照片</string>
+    <string name="record_camera_import_image_choose">从本地照片选择</string>
+    <string name="record_camera_import_image_faild">导入照片失败</string>
+    <string name="record_camera_import_video">视频</string>
+    <string name="record_camera_import_video_choose">从本地视频选择</string>
+    <string name="record_camera_import_video_faild">导入视频失败</string>
+    <string name="record_camera_import_video_title">截\t取</string>
+    <string name="record_camera_init_faild">初始化视频存储路径失败</string>
+    <string name="record_camera_next">下一步</string>
+    <string name="record_camera_open_audio_faild">无法打开录音设备！</string>
+    <string name="record_camera_preview_next">下一步</string>
+    <string name="record_camera_preview_pre">拍摄</string>
+    <string name="record_camera_preview_title">编辑</string>
+    <string name="record_camera_progress_message">正在转码…</string>
+    <string name="record_camera_save_faild">视频信息保存失败！</string>
+    <string name="record_camera_title">拍摄</string>
+    <string name="record_camera_tools_focus">焦点</string>
+    <string name="record_camera_tools_led">闪光</string>
+    <string name="record_preview_building">视频生成中…</string>
+    <string name="record_preview_encoding">正在转码…</string>
+    <string name="record_preview_encoding_format">转码中\t%d%%</string>
+    <string name="record_preview_music_nothing">无</string>
+    <string name="record_preview_tab_filter">滤镜</string>
+    <string name="record_preview_tab_theme">主题</string>
+    <string name="record_preview_theme">主题</string>
+    <string name="record_preview_theme_load_faild">主题加载失败</string>
+    <string name="record_preview_theme_original">原始</string>
+    <string name="record_preview_title">预览</string>
+    <string name="record_read_object_faild">拍摄信息读取失败！请检查SD卡，稍后重试！</string>
+    <string name="record_video_transcoding_faild">视频转码失败</string>
+    <string name="record_video_transcoding_success">视频保存在:%s</string>
+    <!-- From: file:/C:/my/VCameraDemo1/vCameraDemo/src/main/res/values-v11/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="CameraTheme" parent="AppBaseTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/black</item>
+    </style>
+    <style name="RecordThemeStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">2dip</item>
+        <item name="android:padding">2dip</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:layout_marginLeft">10dip</item>
+    </style>
+    <style name="TitleStyleCenter">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:gravity">center</item>
+        <item name="android:shadowColor">@color/black</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="TitleStyleRight">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">50dip</item>
+        <item name="android:paddingLeft">6dp</item>
+        <item name="android:paddingRight">6dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:drawablePadding">11dip</item>
+    </style>
+    <style name="VideoEditTabStyle">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/video_edit_text_color_selector</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@drawable/priview_edit_tab_selector</item>
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+</resources>

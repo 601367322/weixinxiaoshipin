@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yixia.camera.demo.ui.record.views.ThemeRadioButton xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/RecordThemeStyle" />
+<!-- From: file:/C:/my/VCameraDemo1/vCameraDemo/src/main/res/layout/view_radio_item.xml -->
