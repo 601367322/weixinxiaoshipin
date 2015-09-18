@@ -18,7 +18,6 @@ import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.CheckBox;
-import android.widget.CheckedTextView;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
@@ -33,7 +32,6 @@ import com.yixia.camera.VCamera;
 import com.yixia.camera.demo.VCameraDemoApplication;
 import com.yixia.camera.demo.log.Logger;
 import com.yixia.camera.demo.ui.BaseActivity;
-import com.yixia.camera.demo.ui.record.helper.RecorderHelper;
 import com.yixia.camera.demo.ui.record.views.ProgressView;
 import com.yixia.camera.demo.utils.ConvertToUtils;
 import com.yixia.camera.model.MediaObject;
@@ -64,6 +62,8 @@ public class MediaRecorderActivity extends BaseActivity implements
 	private static final int HANDLER_ENCODING_PROGRESS = 101;
 	/** 转码结束 */
 	private static final int HANDLER_ENCODING_END = 102;
+	/** 超时 */
+	private static final int HANDLER_RUNTIME = 103;
 	/** 延迟拍摄停止 */
 	private static final int HANDLE_STOP_RECORD = 1;
 	/** 对焦 */
@@ -75,8 +75,6 @@ public class MediaRecorderActivity extends BaseActivity implements
 	private ImageView mFocusImage;
 	/** 前后摄像头切换 */
 	private CheckBox mCameraSwitch;
-	/** 回删按钮、延时按钮、滤镜按钮 */
-	private CheckedTextView mRecordDelete;
 	/** 闪光灯 */
 	private CheckBox mRecordLed;
 	/** 拍摄按钮 */
@@ -141,7 +139,19 @@ public class MediaRecorderActivity extends BaseActivity implements
 		mTitleNext = (ImageView) findViewById(R.id.title_next);
 		mFocusImage = (ImageView) findViewById(R.id.record_focusing);
 		mProgressView = (ProgressView) findViewById(R.id.record_progress);
-		mRecordDelete = (CheckedTextView) findViewById(R.id.record_delete);
+
+		mProgressView.setListener(new ProgressView.RuntimeListener() {
+			@Override
+			public void runtime() {
+				stopRecord();
+
+				// 检测是否已经完成
+				if (mMediaObject.getDuration() >= RECORD_TIME_MAX) {
+					mTitleNext.performClick();
+				}
+			}
+		});
+
 		mRecordController = (ImageView) findViewById(R.id.record_controller);
 		mBottomLayout = (RelativeLayout) findViewById(R.id.bottom_layout);
 		mRecordLed = (CheckBox) findViewById(R.id.record_camera_led);
@@ -152,7 +162,6 @@ public class MediaRecorderActivity extends BaseActivity implements
 
 		mTitleNext.setOnClickListener(this);
 		findViewById(R.id.title_back).setOnClickListener(this);
-		mRecordDelete.setOnClickListener(this);
 		mBottomLayout.setOnTouchListener(mOnVideoControllerTouchListener);
 
 		// ~~~ 设置数据
@@ -250,12 +259,7 @@ public class MediaRecorderActivity extends BaseActivity implements
 					return true;
 				}
 
-				// 取消回删
-				if (cancelDelete())
-					return true;
-
 				startRecord();
-
 				break;
 
 			case MotionEvent.ACTION_UP:
@@ -408,18 +412,12 @@ public class MediaRecorderActivity extends BaseActivity implements
 			mHandler.sendEmptyMessageDelayed(HANDLE_STOP_RECORD,
 					RECORD_TIME_MAX - mMediaObject.getDuration());
 		}
-		mRecordDelete.setVisibility(View.GONE);
 		mCameraSwitch.setEnabled(false);
 		mRecordLed.setEnabled(false);
 	}
 
 	@Override
 	public void onBackPressed() {
-		if (mRecordDelete != null && mRecordDelete.isChecked()) {
-			cancelDelete();
-			return;
-		}
-
 		if (mMediaObject != null && mMediaObject.getDuration() > 1) {
 			// 未转码
 			new AlertDialog.Builder(this)
@@ -461,7 +459,6 @@ public class MediaRecorderActivity extends BaseActivity implements
 			mMediaRecorder.stopRecord();
 		}
 
-		mRecordDelete.setVisibility(View.VISIBLE);
 		mCameraSwitch.setEnabled(true);
 		mRecordLed.setEnabled(true);
 
@@ -474,21 +471,6 @@ public class MediaRecorderActivity extends BaseActivity implements
 		final int id = v.getId();
 		if (mHandler.hasMessages(HANDLE_STOP_RECORD)) {
 			mHandler.removeMessages(HANDLE_STOP_RECORD);
-		}
-
-		// 处理开启回删后其他点击操作
-		if (id != R.id.record_delete) {
-			if (mMediaObject != null) {
-				MediaObject.MediaPart part = mMediaObject.getCurrentPart();
-				if (part != null) {
-					if (part.remove) {
-						part.remove = false;
-						mRecordDelete.setChecked(false);
-						if (mProgressView != null)
-							mProgressView.invalidate();
-					}
-				}
-			}
 		}
 
 		switch (id) {
@@ -528,103 +510,7 @@ public class MediaRecorderActivity extends BaseActivity implements
 		case R.id.title_next:// 停止录制
 			mMediaRecorder.startEncoding();
 			break;
-		case R.id.record_delete:
-			// 取消回删
-			if (mMediaObject != null) {
-				MediaObject.MediaPart part = mMediaObject.getCurrentPart();
-				if (part != null) {
-					if (part.remove) {
-						mRebuild = true;
-						part.remove = false;
-						mMediaObject.removePart(part, true);
-						mRecordDelete.setChecked(false);
-					} else {
-						part.remove = true;
-						mRecordDelete.setChecked(true);
-					}
-				}
-				if (mProgressView != null)
-					mProgressView.invalidate();
-
-				// 检测按钮状态
-				checkStatus();
-			}
-			break;
 		}
-	}
-
-	/** 获取底层设置参数 */
-	private String getSetting(boolean output) {
-		StringBuilder settings = new StringBuilder();
-		if (mMediaObject != null) {
-
-			//设置视频时长
-			settings.append(String.format("length=%.2f; ", (mMediaObject.getDuration() / 1000F)));
-
-			//设置输入视频文件
-			//			if (mImportImage) {
-			//				settings.append("inputv=");
-			//			} else {
-			settings.append("inputva=");
-			//			}
-			settings.append(mMediaObject.getOutputTempVideoPath());
-			settings.append("; ");
-
-			settings.append("mute=1; ");///mute=1 原音
-
-			//设置片段时长
-			if (mMediaObject.getMedaParts() != null) {
-				final int count = mMediaObject.getMedaParts().size();
-				if (count > 1) {
-					int duration = mMediaObject.getMedaParts().get(0).duration;
-					for (int i = 1; i < count && i < 3; i++) {
-						MediaObject.MediaPart part = mMediaObject.getMedaParts().get(i);
-						if (part != null) {
-							settings.append("seg");
-							settings.append(i);
-							settings.append("ts=");
-							settings.append(String.format("%.2f", duration / 1000f));
-							settings.append(" ");
-							duration += part.duration;
-							settings.append(String.format("%.2f", duration / 1000f));
-							settings.append("; ");
-						}
-					}
-				}
-			}
-			//设置码率
-			settings.append("bitrate=");
-			settings.append(RecorderHelper.getVideoBitrate());//mMediaObject.mVideoBitrate
-			settings.append("; ");
-		}
-		//随机因子
-		settings.append("randomfactor=");
-		settings.append(System.currentTimeMillis() / 1000);
-		settings.append("; ");
-		if (output) {
-			settings.append("outputv=\"");
-			settings.append(mMediaObject.getOutputVideoPath());
-			settings.append("\"; ");
-		}
-		return settings.toString();
-		//return String.format("filterpath=%s; inputv=%s; inputa=%s; length=%.2f; author=%s;authorsizew=%d; authorsizeh=%d", mFilterPath, mYuvPath, mPcmPath, (mDuration / 1000F), mEndPath, mEndWidth, mEndHeight);
-	}
-
-	/** 取消回删 */
-	private boolean cancelDelete() {
-		if (mMediaObject != null) {
-			MediaObject.MediaPart part = mMediaObject.getCurrentPart();
-			if (part != null && part.remove) {
-				part.remove = false;
-				mRecordDelete.setChecked(false);
-
-				if (mProgressView != null)
-					mProgressView.invalidate();
-
-				return true;
-			}
-		}
-		return false;
 	}
 
 	/** 检查录制时间，显示/隐藏下一步按钮 */
@@ -635,7 +521,6 @@ public class MediaRecorderActivity extends BaseActivity implements
 			if (duration < RECORD_TIME_MIN) {
 				if (duration == 0) {
 					mCameraSwitch.setVisibility(View.VISIBLE);
-					mRecordDelete.setVisibility(View.GONE);
 				}
 				// 视频必须大于3秒
 				if (mTitleNext.getVisibility() != View.INVISIBLE)
@@ -701,10 +586,7 @@ public class MediaRecorderActivity extends BaseActivity implements
 	public void onEncodeComplete() {
 		hideProgress();
 		finish();
-//		showProgress("",
-//				getString(R.string.record_preview_encoding));
-//		mHandler.sendEmptyMessage(HANDLER_ENCODING_PROGRESS);
-//		UtilityAdapter.FilterParserInit(getSetting(true), null);
+		//录制完成
 	}
 
 	/**
